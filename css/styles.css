@@ -37,7 +37,7 @@ p {
 }
 @media (max-width: 600px) {
   h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
 }
 .navigation-links {
@@ -87,7 +87,11 @@ p {
   font-size: 28px;
   text-decoration: none;
 }
-
+@media (max-width: 600px) {
+  .email-link {
+    font-size: 20px;
+  }
+}
 .email-link:hover {
   text-decoration: underline;
 }
@@ -97,4 +101,9 @@ p {
 }
 .weatherApp {
   text-align: left;
+}
+@media (max-width: 600px) {
+  #homepageImages {
+    display: none;
+  }
 }
