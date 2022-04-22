@@ -79,10 +79,6 @@ p {
   margin: 20px 120px;
 }
 
-.about-paragraphs p {
-  margin: 10px;
-}
-
 .email-link {
   display: flex;
   justify-content: center;
@@ -105,6 +101,7 @@ p {
 .weatherApp {
   text-align: left;
 }
+
 @media (max-width: 600px) {
   #homepageImages {
     display: none;
@@ -112,5 +109,8 @@ p {
   .btn {
     display: block;
     margin: 0 auto;
+  }
+  .about-paragraphs {
+    display: none;
   }
 }
